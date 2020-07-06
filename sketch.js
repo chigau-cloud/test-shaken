@@ -13,6 +13,6 @@ function setup() {
 
 
 function deviceShaken() {
-  var h = random(20);
+  var h = random(>70);
   background(56, 51, h);
 }
