@@ -12,7 +12,7 @@ function setup() {
 
 
 function deviceShaken() {
-  var h = Math.floor(Math.random() * 50 + 60);
+  var h = Math.floor(Math.random() * 50 + 10);
   //background(56, 51, h);
   background(356, 84, h);
 }
