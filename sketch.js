@@ -12,6 +12,6 @@ function setup() {
 
 
 function deviceShaken() {
-  var h = Math.floor(Math.random() * 50);
+  var h = Math.floor(Math.random() * 50 + 50);
   background(56, 51, h);
 }
