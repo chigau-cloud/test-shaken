@@ -5,7 +5,7 @@
 
 function setup() {
   createCanvas(windowWidth, windowWidth);
-  setShakeThreshold(30);
+  setShakeThreshold(50);
   colorMode(HSB);
   background(0);
 }
