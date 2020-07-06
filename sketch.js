@@ -5,13 +5,13 @@
 
 function setup() {
   createCanvas(windowWidth, windowWidth);
-  setShakeThreshold(50);
+  setShakeThreshold(40);
   colorMode(HSB);
   background(0);
 }
 
 
 function deviceShaken() {
-  var h = Math.floor(Math.random() * 50 + 50);
+  var h = Math.floor(Math.random() + 50);
   background(56, 51, h);
 }
